@@ -1,0 +1,183 @@
+/*
+Common
+*************************/
+
+html, body {
+    height: 100%;
+    
+}
+
+.content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 25px;
+    
+    
+}
+
+.submit {
+    background-color: rgb(194, 155, 84);
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+
+
+/*
+Title
+************************/
+.title {
+    border: none #ccc;
+    max-width: 600px;
+    max-height: 100px;
+    margin: 0 auto;
+    border-left: 1px none #ccc;
+    border-right: 1px none #ccc;
+    background-color: #FBE977;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 25px;
+    align-content: center;
+    margin-bottom: 20px;
+    
+}
+
+h1 {
+    padding-left: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+}
+
+.title div img{
+    height: 90px;
+    float: left;
+}
+
+/* Edit
+************************/
+.title img{
+    width: 90px;
+}
+
+
+
+
+
+
+
+
+
+/*
+Posts
+*************************/
+
+.posts li .menu_icon {
+    width: 25px;
+    position: absolute;
+    right: 30px;
+    top: 18px;
+}
+
+.post_form {
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.post_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.post_form textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px hidden #ccc;
+}
+
+.posts ul {
+    padding: 0;
+}
+
+.posts li .menu a {
+    text-decoration: none;
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color:white;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 3px;
+    border-spacing: 0px;
+    border-radius: 5px;
+    font-family: Calibri;
+    font-weight: bold;
+    
+}
+
+.posts li {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+}
+
+.posts li .logo img {
+    width: 60%;
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.posts li .name_body .datetime {
+    color: gray;
+}
+
+.posts ul li .name_body a .like-button img .like_icon {
+    max-height: 25px;
+}
+
+.like_icon {
+    height: 25px;
+    width: 25px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+}

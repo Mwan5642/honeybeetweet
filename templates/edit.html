@@ -1,0 +1,26 @@
+{% extends "base.html" %} {% block content %} {% load static %} 
+
+<section class = "title">
+    
+    <img src="{% static 'img/bee.png' %}"/>
+    
+    <h1>Honey Bee...</h1> 
+        
+        
+    
+</section>
+
+<section class = "content">
+    <section class ="post_form">
+        <form method="POST">
+            {% csrf_token %}
+            {{form.name}}
+            {{form.body}}
+            <input class= "form-control form-control-sm" type="file" name="image" display="none"></input>
+            <input type="submit" value="Update"/>
+        </form>
+        
+    </section>
+</section>
+
+{% endblock %}
