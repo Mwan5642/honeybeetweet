@@ -39,7 +39,7 @@
                     <div class="datetime">{{ post.created_at|naturaltime }}</div>
                     <p>{{ post.body }}</p> <br>
 
-                    <img src="{{ post.image.url }}" style="width: 300px" onerror="this.style.display='none'" >
+                    <img src="{{ post.image.url }}" style="width: 100%" onerror="this.style.display='none'" >
                     <br><br>
                     
                     <a class="like-button" type= "button" href="/like/{{post.id}}/" style="text-decoration: none;">

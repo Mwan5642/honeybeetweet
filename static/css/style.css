@@ -7,6 +7,10 @@ html, body {
     
 }
 
+body {
+    padding: 15px;
+}
+
 .content {
     max-width: 600px;
     height: 100%;
@@ -45,6 +49,7 @@ Title
     border-radius: 25px;
     align-content: center;
     margin-bottom: 20px;
+    margin-top:20px;
     
 }
 
@@ -99,7 +104,7 @@ Posts
 .post_form input {
     width: 70%;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 10px 20px;
     border: 1px solid #ccc;
     border-radius: 25px;
 }
@@ -108,6 +113,9 @@ Posts
     width: 70%;
     padding: 10px;
     border: 1px hidden #ccc;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    resize: none;
 }
 
 .posts ul {
@@ -179,5 +187,11 @@ Posts
 @media screen and (max-width: 500px) {
     .posts li .name_body .name {
         font-size: 20px;
+    }
+    .post_form input {
+        width: 100%;
+    }
+    .post_form textarea {
+        width: 100%;
     }
 }
