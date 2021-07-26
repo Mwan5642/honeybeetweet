@@ -115,6 +115,7 @@ Posts
 .post_form textarea {
     width: 70%;
     padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 25px;
     margin-bottom: 10px;
     resize: none;
