@@ -106,6 +106,7 @@ Posts
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 25px;
+    padding: 10px 20px;
 }
 
 .post_form input.submit {
